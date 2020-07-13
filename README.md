@@ -1,8 +1,8 @@
-# @rdfjs/namespace
+# @rdf-esm/namespace
 
-[![Build Status](https://travis-ci.org/rdfjs/namespace.svg?branch=master)](https://travis-ci.org/rdfjs/namespace)
+[![Build Status](https://github.com/rdf-esm/namespace/workflows/Test/badge.svg)](https://github.com/rdf-esm/namespace/actions?query=workflow%3ATest)
 
-[![npm version](https://img.shields.io/npm/v/@rdfjs/namespace.svg)](https://www.npmjs.com/package/@rdfjs/namespace)
+[![npm version](https://img.shields.io/npm/v/@rdf-esm/namespace.svg)](https://www.npmjs.com/package/@rdf-esm/namespace)
 
 [Named Node](http://rdf.js.org/) builder.
 
