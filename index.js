@@ -1,14 +1,12 @@
-const rdf = require('@rdfjs/data-model')
+import * as rdf from '@rdf-esm/data-model'
 
 const handler = {
   apply: (target, thisArg, args) => target(args[0]),
   get: (target, property) => target(property)
 }
 
-function namespace (baseIRI, { factory = rdf } = {}) {
+export default function namespace (baseIRI, { factory = rdf } = {}) {
   const builder = (term = '') => factory.namedNode(`${baseIRI}${term.raw || term}`)
 
   return typeof Proxy === 'undefined' ? builder : new Proxy(builder, handler)
 }
-
-module.exports = namespace

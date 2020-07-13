@@ -1,7 +1,8 @@
-/* global describe, it */
+import mocha from 'mocha'
+import assert from 'assert'
+import namespace from '../index.js'
 
-const assert = require('assert')
-const namespace = require('..')
+const { describe, it } = mocha
 
 describe('namespace', () => {
   it('should be a function', () => {
@@ -76,19 +77,6 @@ describe('namespace', () => {
 
       assert.strictEqual(term.termType, 'NamedNode')
       assert.strictEqual(term.value, 'http://schema.org/hasPart')
-    })
-
-    it('should return undefined if the JavaScript engine doesn\'t support Proxy', () => {
-      const ProxyBackup = global.Proxy
-
-      delete global.Proxy
-
-      const schema = namespace('http://schema.org/')
-      const term = schema.hasPart
-
-      global.Proxy = ProxyBackup
-
-      assert.strictEqual(typeof term, 'undefined')
     })
   })
 })

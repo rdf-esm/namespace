@@ -6,6 +6,12 @@
 
 [Named Node](http://rdf.js.org/) builder.
 
+## Fork alert :exclamation:
+
+This package is an ES Modules fork of [@rdfjs/namespace](https://npm.im/@rdfjs/namespace)
+
+The original, commonjs version is used node environment.
+
 ## Usage
 
 The package exports a factory to create builders for [Named Nodes](http://rdf.js.org/#namednode-interface).
@@ -23,7 +29,7 @@ An optional factory can be defined:
 const builder = namespace('http://example.org/base-iri#', { factory: customFactory })
 ```
 
-By default `@rdfjs/data-model` is used.
+By default `@rdf-esm/data-model` is used.
 
 ### Builder
 
@@ -42,7 +48,7 @@ This example shows how to create a builder and create Named Nodes using the thre
 The properties of the Named Nodes are written to the console.
 
 ```javascript
-const namespace = require('@rdfjs/namespace')
+import namespace from '@rdf-esm/namespace'
 
 const schema = namespace('http://schema.org/')
 
