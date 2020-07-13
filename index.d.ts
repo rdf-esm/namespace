@@ -1,3 +1,5 @@
 import namespace from '@rdfjs/namespace'
 
-export const NS: typeof namespace
+declare const NS: typeof namespace
+
+export default NS
