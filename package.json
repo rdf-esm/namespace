@@ -1,6 +1,6 @@
 {
   "name": "@rdf-esm/namespace",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Named Node builder",
   "main": "index.js",
   "type": "module",
