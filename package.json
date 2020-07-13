@@ -1,6 +1,6 @@
 {
-  "name": "@rdfjs/namespace",
-  "version": "0.0.0",
+  "name": "@rdf-esm/namespace",
+  "version": "0.5.0",
   "description": "Named Node builder",
   "main": "index.js",
   "type": "module",
@@ -41,5 +41,8 @@
   },
   "engines": {
     "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
