@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.3](https://github.com/rdf-esm/namespace/compare/v0.5.2...v0.5.3) (2021-04-06)
+
+
+### Bug Fixes
+
+* missing types for @rdfjs/namespace ([27fa798](https://github.com/rdf-esm/namespace/commit/27fa798fc5543e3ae92ec929cd17576196d5df91))
+
 ### [0.5.2](https://github.com/rdf-esm/namespace/compare/v0.5.1...v0.5.2) (2020-11-25)
 
 
