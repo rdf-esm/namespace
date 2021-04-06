@@ -30,11 +30,11 @@
   "homepage": "https://github.com/rdf-esm/namespace",
   "dependencies": {
     "@rdf-esm/data-model": "^0.5.1",
-    "@rdfjs/namespace": "^1.1.0"
+    "@rdfjs/namespace": "^1.1.0",
+    "@types/rdfjs__namespace": "*"
   },
   "devDependencies": {
-    "@types/rdf-js": "^3",
-    "@types/rdfjs__namespace": "^1.1.1",
+    "@types/rdf-js": "^4",
     "c8": "^7.1.2",
     "mocha": "^7.1.2",
     "standard": "^14.3.4"
